@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles.css" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,7 @@
 
    <header>
     <nav>
+        <img src="/CSS-Challenge1/Assets/logo nav.png" alt="">
         <button class="nav">Features</button>
         <button class="nav">Docs</button>
         <button class="nav">Blog</button>
@@ -18,13 +20,18 @@
         <button class="nav">Pricing</button>
         <button class="nav">Contact</button>
         <button class="nav">Sign Up</button>
-        <button class="nav">Log In</button>
+        <button class="nav" id="navright">Log In</button>
     </nav>
-    <p>The Plug and Play Database service</p>
-    <button class="orange button">Start building NOW</button>
-   </header>
+    </header>
 
-   <section id="banner1">
+    <section class="banner1">
+        <img id="man" src="/CSS-Challenge1/Assets/man.png" alt="">
+        <img class="banner1element" id="logo" src="/CSS-Challenge1/Assets/logo header.png" alt="">
+        <h1 class="banner1element">The Plug and Play Database service</p>
+        <button class="banner1element" id="orangebutton">Start building NOW</button>
+    </section>
+
+    <section id="banner2">
         <p>For awesome projects with deadlines</p>
     </section>
 
@@ -49,18 +56,21 @@
    </ul>
    </section>
 
-   <section id="banner2">
+   <section id="banner3">
         <p class="website">Innovative teams gets more done with turlututu.com</p>
     </section>
 
     <section id="logos">
-        <!--pictures of logos-->
+        <img src="/CSS-Challenge1/Assets/logos1.png" alt="">
+        <img src="/CSS-Challenge1/Assets/logos2.png" alt="">
+        <img src="/CSS-Challenge1/Assets/logos3.png" alt="">
+        <img src="/CSS-Challenge1/Assets/logos4.png" alt="">
     </section>
 
-    <section id="buttons">
-        <button class="blue button">REST API ></button>
-        <button class="blue button">Docs ></button>
-        <button class="orange button">Start Building ></button>
+    <section class="buttons">
+        <button class="bluebutton">REST API ></button>
+        <button class="bluebutton">Docs ></button>
+        <button class="orangebutton">Start Building ></button>
     </section>
 
     <footer>
@@ -71,6 +81,8 @@
         <button class="footer">Privacy Policy</button>
         <p>c 2017 turlututu</p>
     </footer>
+
+<img src="/CSS-Challenge1/Assets/turlututu.png" alt="">
 
 </body>
 </html>
